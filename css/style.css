@@ -82,7 +82,7 @@ body{
 }
 
 .img-bgr{
-    background-image: url('/img/tlogory.png');
+    background-image: url('img/tlogory.png');
     background-position: center center;
     background-size: cover;
     width: 100%;
