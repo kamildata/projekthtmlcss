@@ -1,0 +1,142 @@
+.portfolio-first{
+    background-color: #ECECEC;
+    width: 100%;
+  
+   height: 160vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-img-buzz{
+    
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.portfolio h2{
+    margin: 10px;
+    font-size: 36px;
+}
+
+.portfolio p{
+    margin:10px;
+}
+
+.portfolio .orange{
+    width: 200px;
+    height: 80px;
+    font-size: 24px;
+}
+
+.portfolio-second{
+    background-color: white;
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 991.98px) { 
+.portfolio-first{
+    flex-direction: column;
+    height: 270vh;
+}
+.portfolio-second{
+    flex-direction: column;
+    height: 270vh;
+}
+.portfolio-img-buzz{
+ width: 70%;   
+}
+.portfolio-img-branding{
+ width: 70%;
+}
+.portfolio h2{
+    margin: 10px;
+    font-size: 35px;
+}
+
+.portfolio p{
+    margin:10px;
+}
+
+}
+
+@media (max-width: 767.98px) {
+    .portfolio-first{
+        height: 250vh;
+    }
+    .portfolio-second{
+        height: 250vh;
+    }
+    .portfolio-img-buzz{
+        width: 76%;   
+       }
+       .portfolio-img-branding{
+        width: 76%;
+       }
+       .portfolio h2{
+        margin: 7px;
+        font-size: 40px;
+    }
+    
+    .portfolio p{
+        margin:7px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .portfolio-first{
+        height: 210vh;
+    }
+    .portfolio-second{
+        height: 210vh;
+    }
+    
+    .portfolio-img-buzz{
+        width: 79%;
+       }
+       .portfolio-img-branding{
+        width: 79%;
+       }
+}
+
+@media (max-width: 360px) {
+
+    .portfolio-first{
+        height: 190vh;
+    }
+    .portfolio-second{
+        height: 190vh;
+    }
+    .portfolio-img-buzz{
+        width: 100%;
+       }
+       .portfolio-img-branding{
+        width: 100%;
+       }
+    .portfolio .orange{
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .portfolio h2{
+        margin: 5px;
+        font-size: 30px;
+    }
+    
+    .portfolio p{
+        margin:5px;
+    }
+    
+}

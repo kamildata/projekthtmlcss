@@ -1,0 +1,43 @@
+.details{
+    display: flex;
+}
+
+.story-content h2{
+    font-size: 35px;
+}
+.story-content p{
+    font-size: 21px;
+}
+.portfolio-first{
+    background-color: white;
+}
+
+@media (max-width: 767.98px) {
+    .story{
+        height: 80vh;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .story{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-us-header{
+        height: 32vh;
+    }
+    .story{
+        height: 120vh;
+    }
+    .story-content p{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 350px) {
+    .story-content p{
+        font-size: 16px;
+    }
+}
